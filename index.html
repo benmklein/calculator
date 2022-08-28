@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <p id="current-calc">test</p>
+        </div>
+        <div class="button-box">
+            <button id="7" onclick="onClickButton('7');">7</button>
+            <button id="8" onclick="onClickButton('8');">8</button>
+            <button id="9" onclick="onClickButton('9');">9</button>
+            <button id="/" onclick="onClickButton('/');">/</button>
+            <button id="4" onclick="onClickButton('4');">4</button>
+            <button id="5" onclick="onClickButton('5');">5</button>
+            <button id="6" onclick="onClickButton('6');">6</button>
+            <button id="x" onclick="onClickButton('x');">x</button>
+            <button id="1" onclick="onClickButton('1');">1</button>
+            <button id="2" onclick="onClickButton('2');">2</button>
+            <button id="3" onclick="onClickButton('3');">3</button>
+            <button id="-" onclick="onClickButton('-');">-</button>
+            <button class="blank"></button>
+            <button id="0" onclick="onClickButton('0');">0</button>
+            <button class="blank"></button>
+            <button id="+" onclick="onClickButton('+');">+</button>
+        </div>
+        <div class="equals">
+            <button onclick="onClickButton('=');">=</button>
+            <div class="result-box">
+                <p id="result">test</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

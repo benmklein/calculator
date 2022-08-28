@@ -1,0 +1,1 @@
+This is a rough and dirty calculator made for JS/HTML/CSS practice.
